@@ -57,14 +57,5 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // Building using source in path
-    //implementation project (path : ':agillic-android-sdk')
-    // Building using JitPack, failing due to Unauthorized
-    // implementation 'com.github.schafdog:AndroidSDK:1.0.0'
-
-    // Bug in pom generation at the moment: Adding dependencies manually
-    implementation 'com.squareup.okhttp3:okhttp:3.14.9'
-    implementation 'com.snowplowanalytics:snowplow-android-tracker:1.2+@aar'
-    // End bug
-    implementation 'com.agillic.android.sdk:agillic-android-sdk:0.1.0'
+    implementation 'com.agillic.android.sdk:agillic-android-sdk:0.2+'
 }

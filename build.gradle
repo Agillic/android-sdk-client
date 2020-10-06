@@ -25,14 +25,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io'
-//                credentials { username authToken }
-        }
-	    mavenLocal()
-    	maven {
-              name = "AgillicSDK"
-              url = uri("https://maven.pkg.github.com/Agillic/agillic-android-sdk")
-	    }
+        mavenLocal()
     }
 }
 

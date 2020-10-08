@@ -13,7 +13,7 @@ import androidx.work.OneTimeWorkRequest
 import androidx.work.WorkManager
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import com.google.firebase.quickstart.fcm.R
+import com.agillic.kotlibapp.R
 
 class AgillicFirebaseMessagingService : FirebaseMessagingService() {
 
@@ -143,6 +143,6 @@ class AgillicFirebaseMessagingService : FirebaseMessagingService() {
 
     companion object {
 
-        private const val TAG = "MyFirebaseMsgService"
+        private const val TAG = "agiFirebaseMsgService"
     }
 }
